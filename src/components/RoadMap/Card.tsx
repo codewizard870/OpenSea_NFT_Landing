@@ -36,12 +36,19 @@ const CardContent = ({no}:{no:number}) =>{
                     fontFamily="'Clash Display', sans-serif"
                     color="white" fontSize={["20px","25px","30px","35px"]}
                     lineHeight="120%" fontWeight="800" pt={4} textAlign="center"
-                >THE GRAND<br />
-                OPENING</Text>
+                >
+                    WORLDWIDE META<br />APES UNIVERSE<br/>LAUNCHING
+                </Text>
                 <Text color="#fff" p={3} textAlign="center" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" mb="10px" mt="20px">
-                    As soon as our artists finish their magnum opus, paying careful attention to every last detail… The Alpha Kongs Club opens its gates to an exclusive guest list of 8,888 visionaries. Each member carries <span style={{fontFamily:"'Clash Display', sans-serif"}}>THEIR OWN UNIQUE BLUE CHIP NFT</span>.
-                    <br /><br />
-                    The quality of these digital membership cards will be up to par with modern art collections. As you’ll see, our artists’ eye for detail is unmatched by anyone in the NFT space. Because of the artistic value of their work, you’ll be happy to collect artwork that appreciates in value.
+                    We are getting to know the world and creating our own incredible Discord community!
+                    <br/><br/>
+                    <span style={{fontFamily:"'Clash Display', sans-serif"}}>
+                    As well as INSTAGRAM and TWITTER
+                    </span>
+                    <br /><br/>
+                    Join our Discord community to get access to FIRST MINT, sweepstakes, consultations and much more.
+                    <br />
+                    10,000 NFT are coming and more then 100,000 Online billboards 
                 </Text>
             </>
         )
@@ -52,14 +59,19 @@ const CardContent = ({no}:{no:number}) =>{
                     fontFamily="'Clash Display', sans-serif"
                     color="white" fontSize={["20px","25px","30px","35px"]}
                     lineHeight="120%" fontWeight="800" pt={4} textAlign="center"
-                >GIVING BACK TO<br />
-                THE OG KONGS</Text>
+                >
+                    GOING ON<br/> SALE
+                </Text>
                 <Text color="#fff" p={3} textAlign="center" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" mb="10px" mt="20px">
-                    Gorillas have been misrepresented for decades as fearsome animals. But it’s time to change the narrative. Mountain Gorillas share 98% of the human DNA. They’re practically family. And yet, there’s only 1,000 of them left.
-                    <br /><br />
-                    We need to save them.
-                    <br /><br />
-                    And that’s what the AKC community is going to do. We partnered with award-winning musician, <span style={{fontFamily:"'Clash Display', sans-serif"}}>KIESZA AND THE DIAN FOSSEY GORILLA FUND</span> to leverage the power of NFTs and save the real Kongs. With your help, we can make a difference in the world.
+                    Having overcome 150,000 people in our MAU community in DISCORD, we will thank our community by giving 15 LEGENDARY NFTs, after which we will open our WHITELIST for PRE-SALE MINT, which would give our participants a chance to buy our NFT’s at a starting and lower price.
+                    <br/><br/>
+                    After that, a limited MINT will be released at the starting price on our website, and then there will be drops for PUBLIC SALE on OPENSEA
+                    <br/><br/>
+                    We will tell you our four-stage system of selling and putting our NFT’S on sale.
+                    And you will learn the classifications of our NFT by rarity.
+                    <br/><br/>
+                    Follow our discord to be in the center of events!
+
                 </Text>
             </>
         )
@@ -70,12 +82,19 @@ const CardContent = ({no}:{no:number}) =>{
                     fontFamily="'Clash Display', sans-serif"
                     color="white" fontSize={["20px","25px","30px","35px"]}
                     lineHeight="120%" fontWeight="800" pt={4} textAlign="center"
-                >REVEAL THE<br />
-                LEGENDARIES</Text>
+                >
+                    META APES<br />UNIVERSE REVEAL
+                </Text>
                 <Text color="#fff" p={3} textAlign="center" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" mb="10px" mt="20px">
-                    Each Alpha Kong is an awe-inspiring work of art. However, a special few Legendary Alpha Kongs will stand out even in this collection. Some lucky members that are among us right now will get their hands on them.
-                    <br /><br />
-                    Their goal is to go viral, represent the project in the best possible light and quickly draw more investors and fans into the community. This will be achieved by showcasing unique designs worthy of mainstream recognition.
+                Each META APES UNIVERSE NFT is a uniquely developed technology and a number of new opportunities for our customers.
+                <br/><br/>
+                Our Legendary NFTs will become THE MOST PROFITABLE AND LARGEST places on our online billboards.
+                <br/><br/>
+                Revealing our incredibly creative collection. You will finally be able to see what kind of NFT has fallen to you and how profitable and rare it is!
+                <br/><br/>
+                Your NFT will determine which place on the advertising billboard has fallen to you, and soon you will be able to build your business on the MAU P2P platform!
+                <br/><br/>
+                All owners of our NFTs will be able to get an advertising space on the billboard for free and start earning from the ability to sell it or give for rent as early as possible!
                 </Text>
             </>
         )
@@ -102,16 +121,112 @@ const CardContent = ({no}:{no:number}) =>{
                     fontFamily="'Clash Display', sans-serif"
                     color="white" fontSize={["20px","25px","30px","35px"]}
                     lineHeight="120%" fontWeight="800" pt={4} textAlign="center"
-                >UNLEASH THE BLUE<br />
-                BANANA SERUM</Text>
+                >
+                    MAU CLUB!
+                </Text>
                 <Text color="#fff" p={3} textAlign="center" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" mb="10px" mt="20px">
-                    In the deepest part of the jungle, Alpha Kong scouts found a strange relic. When they brought it back to the tribe, Alpha Kong sages grasped. <span style={{fontFamily:"'Clash Display', sans-serif"}}>“JUST AS THE LEGENDS FORETOLD.”</span> This strange, <span style={{fontFamily:"'Clash Display', sans-serif"}}>FUTURISTIC BLUE BANANA</span> will save the entire species.
-                    <br /><br />
-                    Why, we don’t know yet. But this relic from the future carries great strength in itself. It’s so powerful in fact, that it shatters any other primates who try to touch it. Not the Alpha Kongs though. Slowly, it transforms them into something never seen before.
-                    <br /><br />
-                    They feel a great sense of power when they hold the relic. If the legends are true, those strong enough to hold their Alpha Kongs for 2 months will be getting the Blue Banana Serum. Consuming this will clone them, and transform their old selves into something never seen before... Their final form:
-                    <br /><br />
-                    <span style={{fontFamily:"'Clash Display', sans-serif"}}>THE OMEGA KONG</span>.
+                    MAU CLUB is a privileged club for the holders of our NFT.
+                    The club will open immediately after SOLD OUT.
+                    <br/><br/>
+                    You will be able to receive any advice, consultations and directions from our team in person at online conferences.
+                    <br/><br/>
+                    All members of the club will be the first in the lists to receive online vacancies as brokers in online worlds.
+                    Free use of our MAU P2P platform for earning, no commissions for buying or selling!
+                    <br/><br/>
+                    Our team will launch free training on how to start earning from our developments and improve the marketing of your business with the help of our MAU BANNERS.
+                    <br/><br/>
+                    You will also take part in sweepstakes and receive prizes from our team!
+                    <br/><br/>
+                    And much more! Follow all the news in our DISCORD community!
+                </Text>
+            </>
+        )
+    }else if (no===5){
+        return (
+            <>
+                <Text
+                    fontFamily="'Clash Display', sans-serif"
+                    color="white" fontSize={["20px","25px","30px","35px"]}
+                    lineHeight="120%" fontWeight="800" pt={4} textAlign="center"
+                >
+                    BUILDING THE META APES UNIVERSE ONLINE WORLDS PROPERTY
+                </Text>
+                <Text color="#fff" p={3} textAlign="center" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" mb="10px" mt="20px">
+                    Having gathered all the forces, we will continue the global development and purchase of land in the territories of the three largest online worlds like DECENTRALAND, SANDBOX and METAWERSE. 
+                    <br/><br/>
+                    Where we will locate our avenues and districts where our ONLINE BILLBOARDS and advertisements will be placed.
+                    <br/><br/>
+                    Our 3D graphic designers will create incredible skyscrapers and buildings in the FUTURISTIC style, for maximum enjoyment in the future!
+                </Text>
+            </>
+        )
+    }else if (no===6){
+        return (
+            <>
+                <Text
+                    fontFamily="'Clash Display', sans-serif"
+                    color="white" fontSize={["20px","25px","30px","35px"]}
+                    lineHeight="120%" fontWeight="800" pt={4} textAlign="center"
+                >
+                    MAU P2P EARNING PLATFORM
+                </Text>
+                <Text color="#fff" p={3} textAlign="center" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" mb="10px" mt="20px">
+                    As soon as the first 5000 Buildings with billboards are ready, we will launch our MAU P2P platform for earning and working with our NFT, advertising spaces and billboards.
+                    <br/><br/>
+                    On MAU 2P2 you will be able to buy, sell, or rent an advertising space and a billboard that suits your requirements.
+                    <br/><br/>
+                    The platform will function as a special marketplace with P2P opportunities. 
+                    Our team will provide you with a high-tech platform for comfortable work and stable online earnings.
+                </Text>
+            </>
+        )
+    }else if (no===7){
+        return (
+            <>
+                <Text
+                    fontFamily="'Clash Display', sans-serif"
+                    color="white" fontSize={["20px","25px","30px","35px"]}
+                    lineHeight="120%" fontWeight="800" pt={4} textAlign="center"
+                >
+                   META APES UNIVERSE ONLINE JOBS
+                </Text>
+                <Text color="#fff" p={3} textAlign="center" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" mb="10px" mt="20px">
+                    When our universe will be half developed, we will start launching hundreds of thousands of online vacancies for online earnings for everyone.
+                    <br/><br/>
+                    We will open 3 large online offices in the online worlds like DECENTRALAND, SANDBOX and METAVERSE, which will work 24/7.
+                    <br/><br/>
+                    MAU TEAM will open vacancies for brokers selling, renting, or searching for billboards for clients who want to purchase a place on any billboard for their realms.
+                    <br/><br/>
+                    We will create a salary system that will depend on the number of hours worked and the percentage of sales of the advertising space or its delivery.
+                    <br/><br/>
+                    Payments to employees will mainly be received in ETH after each hour worked.
+                    <br/><br/>
+                    There will also be dozens of other vacancies such as sales manager, marketing manager, business communications, consulting, and graphic designers and much more
+                </Text>
+            </>
+        )
+    }else if (no===8){
+        return (
+            <>
+                <Text
+                    fontFamily="'Clash Display', sans-serif"
+                    color="white" fontSize={["20px","25px","30px","35px"]}
+                    lineHeight="120%" fontWeight="800" pt={4} textAlign="center"
+                >
+                    FIRST SPECIALIZED NFT WALLET<br/>(MAU WALLET)
+                </Text>
+                <Text color="#fff" p={3} textAlign="center" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" mb="10px" mt="20px">
+                    The MAU team is creating a new kind of crypto wallet for storing both coins and NFT tokens.
+                    MAU WALLET is specialized in the most comfortable storage of NFT tokens as well as their sending.
+                    <br/><br/>
+                    Our development is created using Advanced Encryption Standard (AES), which allows our wallet to be as secure and invulnerable as possible. 
+                    And with the Keccak256 cryptographic hash function, which is used in the ETH coin.
+                    <br/><br/>
+                    Our goal is to create the most convenient and reliable storage of NFT assets for everyone.
+                    <br/><br/>
+                    Our wallet will be able to hold thousands of NFT.
+                    <br/><br/>
+                    And also, with the help of the P2P function, we will open the opportunity to exchange and sell NFT without any intermediaries and commissions!
                 </Text>
             </>
         )

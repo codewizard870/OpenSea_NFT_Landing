@@ -28,31 +28,31 @@ const JoinClub = (props:any) => {
                         <Text fontFamily="'Clash Display', sans-serif"
                             color="white" fontSize={["35px","40px","45px","50px"]}
                             lineHeight="120%" fontWeight="900"                
-                        >JOIN THE CLUB
+                        >JOIN THE MAU CLUB
                         </Text>
                         <Text color="#fff" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" marginBottom="10px" marginTop="20px">
-                            Alpha Kongs Club is brought to you by a team of artists who left a permanent mark on mainstream culture.
+                            META APES UNIVERSE CLUB is a privileged club for our customers and all users of our developments.
                         </Text>
                         <Text color="#fff" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" marginBottom="10px" marginTop="20px">
-                            They’re the artists behind the dragons of Game of Thrones… and worked on titles such as Star Wars, Star Trek, Pokémon, Jurassic World, and more.
+                            Holders of our NFT will become part of our club, where dozens of privileges and opportunities are waiting for them, such as participation in sweepstakes, full consultations on our developments personally with our team at online conferences.
                         </Text>
                         <Text color="#fff" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" marginBottom="10px" marginTop="20px">
-                            The Club is also home to hundreds of celebrities, top tier engineers, marketing experts and crypto visionaries.
+                            Free use and access to our MAU P2P platform for work!
                         </Text>
                         <Text color="#fff" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" marginBottom="10px" marginTop="20px">
-                            Soon, you’ll be able to join them and take part in the <span style={{fontFamily:"'Clash Display', sans-serif"}}>Alpha Kongs Ecosystem</span> as it becomes a globally recognized project.
+                            Our club members will find out all the news about our developments and plans before anyone else.
                         </Text>
                         <Text color="#fff" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" marginBottom="10px" marginTop="20px">
-                            Mark 1 February 2022 on your calendar.
+                            In our club we will open special online courses aimed at teaching earnings in the online worlds on our developments and vacancies.
                         </Text>
                         <Text color="#fff" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" marginBottom="10px" marginTop="20px">
-                            The most determined early supporters will get their hands on one of the 8888 digital art pieces.
+                            An incredibly unique collection of 10k NFT, which will change the industry of online earnings and marketing!
                         </Text>
                         <Text color="#fff" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" marginBottom="10px" marginTop="20px">
-                            Once the <span style={{fontFamily:"'Clash Display', sans-serif"}}>Alpha Kongs</span> have chosen their 8,888 Metaverse Champions, many will get left behind.
+                            Become a part of our club and community and we will change online opportunities together!
                         </Text>
                         <Text color="#fff" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" marginBottom="30px" marginTop="20px">
-                            Today, you can still join the winning team and share in Their success.
+                            “It's never too late to change everything and dive into the future.“-CEO of META APES UNIVERSE
                         </Text>
                         <ButtonPrimary to="#" name="Join Discord" width="270px" />
                     </Flex>

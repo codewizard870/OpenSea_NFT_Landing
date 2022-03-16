@@ -81,7 +81,7 @@ const Team = (props:any) => {
                     })
                     }
                 </Box>
-                <Box display="grid" gridAutoColumns="1fr" gridColumnGap={["1em","2em","3em","4em"]}
+                {/* <Box display="grid" gridAutoColumns="1fr" gridColumnGap={["1em","2em","3em","4em"]}
                     gridTemplateRows="auto" gridRowGap="0px" gridTemplateColumns={["none","1fr 1fr 1fr 1fr","1fr 1fr 1fr 1fr","1fr 1fr 1fr 1fr"]} marginTop="2.8em"
                 >
                     {[6,7,8,9]?.map((item:any, index:number) => {
@@ -90,7 +90,7 @@ const Team = (props:any) => {
                         )
                     })
                     }
-                </Box>
+                </Box> */}
             </Flex>
         </Flex>
     );

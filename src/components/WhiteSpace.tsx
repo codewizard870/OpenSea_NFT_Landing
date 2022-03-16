@@ -1,5 +1,5 @@
 import { Link, Box, Flex, Text, Button, Stack, Image } from "@chakra-ui/react";
-const DeepJungle = (props:any) => {
+const WhiteSpace = (props:any) => {
     return (
         <Flex 
             alignItems="center"
@@ -9,18 +9,18 @@ const DeepJungle = (props:any) => {
         {...props}>
             <Box>
                 <Text
-                    fontSize="12px"
+                    fontSize="14px"
                     lineHeight="120%"
                     text-align="center"
                     color="#161616"
                     // textTransform="uppercase"
                     fontWeight="600"
                 >                    
-                    <span style={{fontFamily:"'Clash Display', sans-serif"}}>Meta APES Universe</span>, The first NFT project that will capture the entire marketing of decentra meta worlds with our incredible buildings and art advertising spaces!
+                    <span style={{fontFamily:"'Clash Display', sans-serif"}}>Meta APES Universe</span>, first NFT project that will change the industry of ONLINE EARNINGS and ONLINE MARKETING
                 </Text>
             </Box>            
         </Flex>
     );
 };
 
-export default DeepJungle
+export default WhiteSpace

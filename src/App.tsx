@@ -2,28 +2,32 @@ import React from 'react';
 import './App.css';
 import NavBar from "./components/Nav";
 import Hero from "./components/Hero";
-import DeepJungle from './components/DeepJungle';
+import WhiteSpace from './components/WhiteSpace';
 import About from './components/About';
 import Artists from './components/Artists';
 import JoinClub from './components/JoinClub';
-import Festival from './components/Festival';
+import MauEarning from './components/MauEarning';
 import Team from './components/Team';
 import FAQ from './components/FAQ/FAQ';
 import Footer from './components/Footer';
 import RoadMap from './components/RoadMap';
+import PromotionVideo from './components/PromotionVideo';
+import Provenance from './components/Provenance';
+
 function App() {
   return (    
     <>
       <NavBar />
       <Hero />
-      <DeepJungle />
-      {/* <Intro /> */}
+      <WhiteSpace />
+      <PromotionVideo />
       <About />
-      <Artists />
+      <MauEarning />
       <JoinClub />
+      <Artists />
       <RoadMap />
-      <Festival />
       <Team />
+      <Provenance/>
       <FAQ />
       <Footer />
     </>

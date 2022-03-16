@@ -24,71 +24,71 @@ export const ARTISTS_LIST = [
 
 export const MEMBERS_LIST1 = [
     {
-        name: "D.KING",
-        description: "Some call him King, others call him a marketing genius. We call him both.",
+        name: "ADAM",
+        description: "Founder and Project manager  META APES UNIVERSE",
         img: "/team/1/1.png",        
     },
     {
-        name: "HARAMBE",
-        description: "The reincarnation of Harambe, that leads the way to victory for the Alpha Kongs.",
+        name: "JOSE",
+        description: "Head and Manager META APES UNIVERSE",
         img: "/team/1/2.png",        
     },
     {
-        name: "HUNTER",
-        description: "Imagine two alpha kong whiz-kids get a kid. Well, that’s Hunter. Incredible Web3 engineer.",
+        name: "NICM",
+        description: "Blockchain engineer",
         img: "/team/1/3.png",        
     },
     {
-        name: "SNIPE",
-        description: "Snipe got his first computer in the Jungle when he was 8, and has been developing ever since. He also makes discord bots.",
+        name: "LI",
+        description: "Web3 engineer",
         img: "/team/1/4.png",        
     },
     {
-        name: "JERRA",
-        description: "One of the best managers for social media in the Jungle, Jerra always comes in clutch.",
+        name: "JOHN",
+        description: "Discord engineer",
         img: "/team/1/5.png",        
     },
     {
-        name: "PRIME",
-        description: "Marketing guru turned designer. Ask Prime what you need, and he gets it for you, fast.",
+        name: "HENRY",
+        description: "Code engineer",
         img: "/team/1/6.png",        
     },
     {
-        name: "CHIEF",
-        description: "The Chief has one task, and one task only: Make sure that the whole Club is happy and well fed.",
+        name: "DYLEN",
+        description: "Social media manager",
         img: "/team/1/7.png",        
     }
 ]
 
 export const MEMBERS_LIST2 = [
     {
-        name: "CURT",
-        description: "",
+        name: "THOMAS",
+        description: "Marketing manager",
         img: "/team/2/1.png",        
     },
     {
-        name: "DUCT",
-        description: "",
+        name: "CONNOR",
+        description: "3D designer",
         img: "/team/2/2.png",        
     },
     {
-        name: "JACKSON",
-        description: "",
+        name: "ROBERT",
+        description: "2D designer",
         img: "/team/2/3.png",        
     },
     {
-        name: "WONG",
-        description: "",
+        name: "BRUCE",
+        description: "3D Graphics engineer",
         img: "/team/2/4.png",        
     },
     {
-        name: "ANX",
-        description: "",
+        name: "DAVID",
+        description: "Moderator",
         img: "/team/2/5.png",        
     },
     {
-        name: "BOKITO",
-        description: "",
+        name: "CHRIS",
+        description: "Database Developer",
         img: "/team/2/6.png",        
     },
     {

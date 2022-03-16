@@ -10,10 +10,10 @@ const RoadMap = () => {
     const [cardIndex, setCardIndex] = useState(0)    
     const handleLeftClick=()=>{
         if (cardIndex>0) setCardIndex(cardIndex-1)
-        else setCardIndex(4)                  
+        else setCardIndex(8)                  
     }
     const handleRightClick=()=>{
-        if (cardIndex<4) setCardIndex(cardIndex+1)
+        if (cardIndex<8) setCardIndex(cardIndex+1)
         else setCardIndex(0)
     }
     useEffect(() => {
@@ -40,11 +40,16 @@ const RoadMap = () => {
                     <ArrowButton handleClick={handleRightClick} transform="Rotate(180deg)"  />                
                 </Flex>
             </Flex>
-            <Box mt={["30px","40px","45px","50px"]} width={["270px","300px","350px","420px","450px"]} 
-            height={["570px","650px","650px","45em", "43em"]} overflow="visible" position="relative" 
-            display="block" transform={cardTranslate} right="0" whiteSpace="nowrap"
-            transition="transform 500ms ease 0s">
-                {[0,1,2,3,4].map((item:number) => {
+            <Box 
+                mt={["30px","40px","45px","50px"]} 
+                width={["270px","300px","350px","420px","450px"]} 
+                height={["570px","650px","650px","45em", "43em"]} 
+                overflow="visible" position="relative" 
+                display="block" 
+                transform={cardTranslate} right="0" whiteSpace="nowrap"
+                transition="transform 500ms ease 0s"
+            >
+                {[0,1,2,3,4,5,6,7,8].map((item:number) => {
                     return (<Card key={item} no={item} />)
                 })}
             </Box>
