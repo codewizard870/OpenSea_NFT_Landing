@@ -64,7 +64,7 @@ const HeroImg = (props: any) => {
             right="0%"
             bottom="0%"
             // maxWidth="479px"
-            w="50vw"
+            w="45vw"
             display={["none", "block", "block", "block"]}
         />
     )
