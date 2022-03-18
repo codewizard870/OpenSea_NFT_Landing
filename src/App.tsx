@@ -24,7 +24,7 @@ function App() {
       <About />
       <MauEarning />
       <JoinClub />
-      <Artists />
+      {/* <Artists /> */}
       <RoadMap />
       <Team />
       <Provenance/>

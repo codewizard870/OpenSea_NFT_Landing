@@ -25,16 +25,16 @@ export const ARTISTS_LIST = [
 export const MEMBERS_LIST1 = [
     {
         name: "ADAM",
-        description: "Founder and Project manager  META APES UNIVERSE",
+        description: "Found,Founder and Project manager  META APES UNIVERSE",
         img: "/team/1/1.png",        
     },
     {
         name: "JOSE",
-        description: "Head and Manager META APES UNIVERSE",
+        description: "CEO, Head and Manager META APES UNIVERSE",
         img: "/team/1/2.png",        
     },
     {
-        name: "NICM",
+        name: "NICK",
         description: "Blockchain engineer",
         img: "/team/1/3.png",        
     },

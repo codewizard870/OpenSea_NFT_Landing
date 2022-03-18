@@ -30,10 +30,10 @@ const WelcomeImg = (props: any) => {
             fontSize={["30px", "35px", "38px", "42px", "45px"]}
             fontWeight="900"
             fontFamily="'Clash Display', sans-serif"
-            color="rgb(255,255,235)"
+            color="green"
             // textShadow="2px 2px 8px rgba(210, 210, 40, 0.8), -2px -2px 8px rgba(210, 210, 40, 0.8), 5px 5px 20px rgba(200, 200, 40, 0.8), -5px -5px 20px rgba(200, 200, 40, 0.8)"            
-            textShadow="2px 2px 8px rgba(100, 210, 30, 0.8), -2px -2px 8px rgba(100, 210, 30, 0.8), 5px 5px 20px rgba(80, 200, 20, 0.8), -5px -5px 20px rgba(100, 200, 40, 0.8)"            
-            // textShadow="2px 2px 8px rgba(210, 20, 180, 0.8), -2px -2px 8px rgba(210, 20, 180, 0.8), 5px 5px 20px rgba(210, 20, 180, 0.8), -5px -5px 20px rgba(210, 20, 180, 0.8)"
+            // textShadow="2px 2px 8px rgba(0, 210, 30, 0.8), -2px -2px 8px rgba(100, 210, 30, 0.8), 5px 5px 20px rgba(80, 200, 20, 0.8), -5px -5px 20px rgba(100, 200, 40, 0.8)"            
+            textShadow="2px 2px 8px rgba(255, 255, 255, 0.8), -2px -2px 8px rgba(255, 255, 255, 0.8), 5px 5px 20px rgba(255, 255, 255, 0.8), -5px -5px 20px rgba(255, 255, 255, 0.8)"
             textTransform="uppercase"
             lineHeight="96%"
             mb={6}
@@ -57,14 +57,14 @@ const WelcomeContainer = ({ children, ...props }: { children: React.ReactNode })
 const HeroImg = (props: any) => {
     return (
         <Image
-            src="/hero.jpg"
+            src="/hero.png"
             position="absolute"
             left="auto"
             top="auto"
             right="0%"
             bottom="0%"
             // maxWidth="479px"
-            w="53vw"
+            w="50vw"
             display={["none", "block", "block", "block"]}
         />
     )

@@ -5,12 +5,12 @@ const JoinClub = (props:any) => {
         <Flex
             position="relative"
             paddingTop={["4em","6em","8em","10em"]}
-            paddingBottom={["3em","4em","6em","8em"]}
+            paddingBottom={["3em","4em","4em","4em"]}
             bg="#000"
         >
             <Image
                 position="absolute"
-                width="44%"
+                width="60%"
                 left="0px"
                 bottom="0px"
                 right="auto"
@@ -31,28 +31,31 @@ const JoinClub = (props:any) => {
                         >JOIN THE MAU CLUB
                         </Text>
                         <Text color="#fff" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" marginBottom="10px" marginTop="20px">
-                            META APES UNIVERSE CLUB is a privileged club for our customers and all users of our developments.
+                            META APES UNIVERSE CLUB is a privileged club for our customers and all users of our developments. 
                         </Text>
                         <Text color="#fff" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" marginBottom="10px" marginTop="20px">
-                            Holders of our NFT will become part of our club, where dozens of privileges and opportunities are waiting for them, such as participation in sweepstakes, full consultations on our developments personally with our team at online conferences.
+                            Holders of our NFT will become part of our club, where dozens of privileges and opportunities are waiting for them
                         </Text>
                         <Text color="#fff" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" marginBottom="10px" marginTop="20px">
-                            Free use and access to our MAU P2P platform for work!
+                            <span style={{fontWeight:"900"}}>PARTISIPATION IN SWEEPSTAKES!</span>
                         </Text>
                         <Text color="#fff" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" marginBottom="10px" marginTop="20px">
-                            Our club members will find out all the news about our developments and plans before anyone else.
+                            <span style={{fontWeight:"900"}}>Full consultations on our developments personally with our team at online conferences!</span>
                         </Text>
                         <Text color="#fff" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" marginBottom="10px" marginTop="20px">
-                            In our club we will open special online courses aimed at teaching earnings in the online worlds on our developments and vacancies.
+                            <span style={{fontWeight:"900"}}>Free use and access to our MAU P2P platform for work!</span>
                         </Text>
                         <Text color="#fff" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" marginBottom="10px" marginTop="20px">
-                            An incredibly unique collection of 10k NFT, which will change the industry of online earnings and marketing!
+                            <span style={{fontWeight:"900"}}>Our club members will find out all the news about our developments and plans before anyone else!</span>
                         </Text>
                         <Text color="#fff" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" marginBottom="10px" marginTop="20px">
+                            <span style={{fontWeight:"900"}}>In our club we will open special online courses aimed at teaching earnings in the online worlds like DECENTRALAND, SANDBOX and METAVERSE on our developments and vacancies.</span>
+                        </Text>
+                        <Text color="#fff" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" marginBottom="30px" marginTop="20px">
                             Become a part of our club and community and we will change online opportunities together!
                         </Text>
                         <Text color="#fff" fontSize={["13px","15px","16px","18px"]} lineHeight="120%" marginBottom="30px" marginTop="20px">
-                            “It's never too late to change everything and dive into the future.“-CEO of META APES UNIVERSE
+                            “It's never too late to change everything and dive into the future. “-FOUNDER of META APES UNIVERSE.
                         </Text>
                         <ButtonPrimary to="#" name="Join Discord" width="270px" />
                     </Flex>
