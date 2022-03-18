@@ -53,8 +53,14 @@ const FAQ = (props:any) => {
                     <AccordionItem bg="black" color="white" borderColor="#161616" borderWidth="10px">
                         <h2>
                         <AccordionButton>
-                            <Box flex='1' textAlign='left' textTransform="uppercase" padding="10px" _hover={{color:"yellow"}} fontSize={["14px","16px","18px","20px"]} fontWeight="900">
+                            <Box flex='1' >
+                                <Text
+                                textAlign='left' textTransform="uppercase" p="10px" _hover={{color:"yellow"}} fontSize={["14px","16px","18px","20px"]} fontWeight="900"
+                                textShadow="2px 2px 8px rgba(0, 255, 40, 0.8), -2px -2px 8px rgba(0, 255, 40, 0.8), 5px 5px 20px rgba(0, 255, 40, 0.8), -5px -5px 20px rgba(0, 255, 40, 0.8)"            
+                                lineHeight="96%"
+                                >
                                 WHAT PRIVILLEGES MAU NFT’S GIVE?
+                                </Text>
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>
@@ -73,8 +79,14 @@ const FAQ = (props:any) => {
                     <AccordionItem bg="black" color="white" borderColor="#161616" borderWidth="10px">
                         <h2>
                         <AccordionButton>
-                            <Box flex='1' textAlign='left' textTransform="uppercase" padding="10px" _hover={{color:"yellow"}} fontSize={["14px","16px","18px","20px"]} fontWeight="900">
+                            <Box flex='1' >
+                                <Text
+                                textAlign='left' textTransform="uppercase" p="10px" _hover={{color:"yellow"}} fontSize={["14px","16px","18px","20px"]} fontWeight="900"
+                                textShadow="2px 2px 8px rgba(0, 255, 40, 0.8), -2px -2px 8px rgba(0, 255, 40, 0.8), 5px 5px 20px rgba(0, 255, 40, 0.8), -5px -5px 20px rgba(0, 255, 40, 0.8)"            
+                                lineHeight="96%"
+                                >
                                 WHY IS META APES UNIVERSE A VERY SUCCESSFUL INVESTMENT?
+                                </Text>
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>
@@ -101,8 +113,14 @@ const FAQ = (props:any) => {
                     <AccordionItem bg="black" color="white" borderColor="#161616" borderWidth="10px">
                         <h2>
                         <AccordionButton>
-                            <Box flex='1' textAlign='left' textTransform="uppercase" padding="10px" _hover={{color:"yellow"}} fontSize={["14px","16px","18px","20px"]} fontWeight="900">
+                        <Box flex='1' >
+                                <Text
+                                textAlign='left' textTransform="uppercase" p="10px" _hover={{color:"yellow"}} fontSize={["14px","16px","18px","20px"]} fontWeight="900"
+                                textShadow="2px 2px 8px rgba(0, 255, 40, 0.8), -2px -2px 8px rgba(0, 255, 40, 0.8), 5px 5px 20px rgba(0, 255, 40, 0.8), -5px -5px 20px rgba(0, 255, 40, 0.8)"            
+                                lineHeight="96%"
+                                >
                                 HOW TO GET ON THE PRE-SALE MINT WHITELIST?
+                                </Text>
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>
@@ -128,8 +146,14 @@ const FAQ = (props:any) => {
                     <AccordionItem bg="black" color="white" borderColor="#161616" borderWidth="10px">
                         <h2>
                         <AccordionButton>
-                            <Box flex='1' textAlign='left' textTransform="uppercase" padding="10px" _hover={{color:"yellow"}} fontSize={["14px","16px","18px","20px"]} fontWeight="900">
+                            <Box flex='1' >
+                                <Text
+                                textAlign='left' textTransform="uppercase" p="10px" _hover={{color:"yellow"}} fontSize={["14px","16px","18px","20px"]} fontWeight="900"
+                                textShadow="2px 2px 8px rgba(0, 255, 40, 0.8), -2px -2px 8px rgba(0, 255, 40, 0.8), 5px 5px 20px rgba(0, 255, 40, 0.8), -5px -5px 20px rgba(0, 255, 40, 0.8)"            
+                                lineHeight="96%"
+                                >
                                 WHY SHOULD YOU ENTER OUR COMMUNITY AND MAU CLUB?
+                                </Text>
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>
@@ -154,8 +178,14 @@ const FAQ = (props:any) => {
                     <AccordionItem bg="black" color="white" borderColor="#161616" borderWidth="10px">
                         <h2>
                         <AccordionButton>
-                            <Box flex='1' textAlign='left' textTransform="uppercase" padding="10px" _hover={{color:"yellow"}} fontSize={["14px","16px","18px","20px"]} fontWeight="900">
+                            <Box flex='1' >
+                                <Text
+                                textAlign='left' textTransform="uppercase" p="10px" _hover={{color:"yellow"}} fontSize={["14px","16px","18px","20px"]} fontWeight="900"
+                                textShadow="2px 2px 8px rgba(0, 255, 40, 0.8), -2px -2px 8px rgba(0, 255, 40, 0.8), 5px 5px 20px rgba(0, 255, 40, 0.8), -5px -5px 20px rgba(0, 255, 40, 0.8)"            
+                                lineHeight="96%"
+                                >
                                 WHAT WILL THE MINT PRICE BE?
+                                </Text>
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>
