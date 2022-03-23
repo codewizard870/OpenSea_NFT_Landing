@@ -12,6 +12,7 @@ const Team = (props:any) => {
             justifyContent="center"
             flexDirection="column"            
             bg="#fff"
+            id="team"
         {...props}>
             <Flex alignItems="center" flexDirection="column" 
                 maxWidth={["none", "92vw", "92vw", "1200px"]}

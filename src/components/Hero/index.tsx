@@ -80,6 +80,7 @@ const HeroContainer = ({ children, ...props }: { children: React.ReactNode }) =>
             backgroundSize="cover"
             backgroundRepeat="no-repeat"
             h={["548px", "450px", "450px", "100vh"]}
+            id="about"
             {...props}
         >
             {children}

@@ -22,7 +22,7 @@ const Footer = () => {
         />
         <SocialLinks />  
         <Text pt={6} color="white">
-            © 2022 Alpha Kongs Club | All Rights Reserved
+            © 2022 META APES UNIVERSE | All Rights Reserved
         </Text>   
     </Flex> 
   );

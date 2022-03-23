@@ -6,6 +6,7 @@ const MauEarning = (props:any) => {
             position="relative"
             paddingTop={["4em","6em","7em","8em"]}
             bg="#000"
+            id="earning"
         >
             <Image
                 position="absolute"

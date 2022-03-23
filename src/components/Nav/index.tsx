@@ -107,13 +107,12 @@ const MenuLinks = ({ isOpen }:{isOpen: boolean}) => {
         direction={["column", "column", "row", "row"]}
         pt={[4, 4, 0, 0]}
       >
-        <MenuItem to="/">About</MenuItem>
-        <MenuItem to="/how">Benefits </MenuItem>
-        <MenuItem to="/features">MAU Club </MenuItem>
+        <MenuItem to="/#about">About US</MenuItem>
+        <MenuItem to="/#team">Team </MenuItem>        
         <MenuItem to="#roadmap">Roadmap </MenuItem>
-        <MenuItem to="/pricing">FAQ </MenuItem>
-        <MenuItem to="/pricing">Team </MenuItem>        
-        <MenuItem to="/pricing">Provenance </MenuItem>    
+        {/* <MenuItem to="/pricing">Provenance </MenuItem>     */}
+        <MenuItem to="/#club">MAU Club </MenuItem>
+        <MenuItem to="/#earning">Mau earning </MenuItem>
         <ButtonPrimary to="https://opensea.io/collection/alphakongsclub" name="Mint soon" width="260px" />        
       </Stack>
     </Box>

@@ -27,7 +27,7 @@ function App() {
       {/* <Artists /> */}
       <RoadMap />
       <Team />
-      <Provenance/>
+      {/* <Provenance/> */}
       <FAQ />
       <Footer />
     </>

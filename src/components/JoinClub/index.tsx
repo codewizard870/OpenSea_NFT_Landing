@@ -7,6 +7,7 @@ const JoinClub = (props:any) => {
             paddingTop={["4em","6em","8em","10em"]}
             paddingBottom={["3em","4em","4em","4em"]}
             bg="#000"
+            id="club"
         >
             <Image
                 position="absolute"
