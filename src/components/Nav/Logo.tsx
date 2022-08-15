@@ -8,7 +8,7 @@ export default function Logo(props: any) {
         Logo
       </Text> */}
       <Box>
-        <LogoSvg width="50px" height="50px" />
+        <LogoSvg width="60px" height="60px" />
       </Box>      
     </Box>
   )
