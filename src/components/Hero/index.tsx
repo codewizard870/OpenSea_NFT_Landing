@@ -15,7 +15,13 @@ const Hero = (props: any) => {
     <HeroContainer {...props}>
       <WelcomeContainer>
         <WelcomeImg />
-        <Flex width="60%" align="center" columnGap="50px" h="100vh">
+        <Flex
+          direction={{ base: "column", lg: "row" }}
+          width={{base: "100%", lg:"60%"}}
+          align="center"
+          columnGap="50px"
+          h="100%"
+        >
           <Text
             color="white"
             fontSize={["16px", "16px", "18px", "18px"]}
@@ -55,11 +61,9 @@ const WelcomeImg = (props: any) => {
       opacity: 0;
     }
   `;
-  const prefersReducedMotion = usePrefersReducedMotion()
+  const prefersReducedMotion = usePrefersReducedMotion();
 
-  const animation = prefersReducedMotion
-    ? undefined
-    : `${blink} 2s infinite`;
+  const animation = prefersReducedMotion ? undefined : `${blink} 2s infinite`;
 
   return (
     // <Image
@@ -79,7 +83,7 @@ const WelcomeImg = (props: any) => {
       mb={6}
     >
       Welcome to <br />
-      The Meta APES Universe
+      The Meta APES Universe Club
     </Text>
   );
 };
@@ -106,14 +110,14 @@ const HeroImg = (props: any) => {
   return (
     <Image
       src="/hero.png"
-      position="absolute"
+      position={{base:"static", lg:"absolute"}}
       left="auto"
       top="auto"
       right="0%"
       bottom="0%"
       // maxWidth="479px"
-      w="35vw"
-      display={["none", "block", "block", "block"]}
+      w={{base: "100%", lg:"35vw"}}
+      display={["block", "block", "block", "block"]}
     />
   );
 };
@@ -133,7 +137,7 @@ const HeroContainer = ({
       backgroundSize="cover"
       backgroundRepeat="no-repeat"
       pt="100px"
-      h={["548px", "450px", "450px", "100vh"]}
+      h={{base:"100%", lg: "100vh"}}
       id="about"
       {...props}
     >
