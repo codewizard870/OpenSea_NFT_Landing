@@ -12,16 +12,16 @@ const About = (props: any) => {
       position="relative"
       {...props}
     >
-      {/* <Flex
+      <Flex
         position="absolute"
         display={["none", "none", "block", "block", "block"]}
         // left="auto"
-        top="0px"
-        right="0px"
+        top="50px"
+        right="50px"
         // src="/about/neon.png"
       >
         <Text
-          fontSize={["30px", "35px", "38px", "42px", "150px"]}
+          fontSize={["30px", "35px", "38px", "42px", "80px"]}
           fontWeight="900"
           fontFamily="'Clash Display', sans-serif"
           color="rgb(255,255,235)"
@@ -31,10 +31,10 @@ const About = (props: any) => {
           lineHeight="96%"
           mb={6}
         >
-          mau
+          M<br/>A<br/>U<br/><br/>C<br/>L<br/>U<br/>B
         </Text>
       </Flex>
-      <Image
+      {/* <Image
         position="absolute"
         width={["0%", "30%", "26%", "30%", "200px"]}
         display={["none", "none", "block", "block", "block"]}

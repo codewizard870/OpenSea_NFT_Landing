@@ -17,7 +17,7 @@ const Hero = (props: any) => {
         <WelcomeImg />
         <Flex
           direction={{ base: "column", lg: "column" }}
-          width={{ base: "100%", lg: "30%" }}
+          width={{ base: "100%", lg: "50%" }}
           align="center"
           justify="center"
           columnGap="50px"
