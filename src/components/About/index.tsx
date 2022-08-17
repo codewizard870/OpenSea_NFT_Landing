@@ -1,4 +1,6 @@
 import { Link, Box, Flex, Text, Button, Stack, Image } from "@chakra-ui/react";
+import Logo from "../../assets/Logo.svg";
+
 const About = (props: any) => {
   return (
     <Flex
@@ -18,6 +20,15 @@ const About = (props: any) => {
         top="0px"
         right="0px"
         src="/about/neon.png"
+      />
+      <Image
+        position="absolute"
+        width={["0%", "30%", "26%", "30%", "200px"]}
+        display={["none", "none", "block", "block", "block"]}
+        // left="auto"
+        top="30px"
+        left="0px"
+        src={Logo}
       />
       <Box
         maxWidth={["88vw", "86vw", "66vw", "66vw"]}
@@ -44,6 +55,7 @@ const About = (props: any) => {
           lineHeight="120%"
           marginBottom="10px"
           marginTop="20px"
+          fontSize="18px"
         >
           <b>META APES UNIVERSE CLUB</b> is a project that will change the
           industry of NFT projects, with its new, stable, interesting and
@@ -53,27 +65,31 @@ const About = (props: any) => {
           <b>MAU team</b> creates its own online world, <b>MAUVERSE!</b>
           <br />
           <br />
-          <b>In MAUVERSE</b> you will be able to live using your NFT, study,
-          work, play, communicate, create, earn daily and much more!
+          <b>In MAUVERSE</b> you will be able to live using your &nbsp;
+          <b>NFT, study, work, play, communicate, create, earn daily</b>&nbsp;
+          and much more!
           <br />
           <br />
           <b>MAU NFT'S</b> is not just digital art, it is primarily a high-tech
-          gadget that will open up new opportunities for you in the field of
-          earnings, life, communications, education and entertainment.
+          gadget that will open up new opportunities for you in the&nbsp;
+          <b>
+            field of earnings, life, communications, education and
+            entertainment.
+          </b>
           <br />
           <br />
-          We have also prepared MAU MOVE TO EARN opportunities for you!{" "}
+          We have also prepared MAU MOVE TO EARN opportunities for you!&nbsp;
           <b>META APES UNIVERSE</b> will be the first crypto project that will
           provide permanent online jobs in its online world MAUVERSE.
           <br />
           <br />
-          Every <b>FIRST MAU NFT</b> owner will get a FREE plot of land in{" "}
+          Every <b>FIRST MAU NFT</b> owner will get a FREE&nbsp;
+          <b>plot of land</b>&nbsp; in&nbsp;
           <b>MAUVERSE!</b>
           <br />
           <br />
-          The sale of land plots will begin after the sold out of the{" "}
-          <b>MAU NFT</b>
-          collection.
+          The sale of land plots will begin after the sold out of the&nbsp;
+          <b>MAU NFT</b>&nbsp; collection.
           <br />
           <br />
           And much more is coming soon!

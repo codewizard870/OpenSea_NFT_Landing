@@ -17,7 +17,7 @@ const Hero = (props: any) => {
         <WelcomeImg />
         <Flex
           direction={{ base: "column", lg: "column" }}
-          width={{ base: "100%", lg: "60%" }}
+          width={{ base: "100%", lg: "30%" }}
           align="center"
           justify="center"
           columnGap="50px"
@@ -40,7 +40,7 @@ const Hero = (props: any) => {
             <br />
             MAU team developing <b>MAUVERSE</b> - a new online world full of new
             opportunities for everyone!&nbsp;
-            <b>DEVELOP, EARN, COMMUNICATE, ENTERTAINM</b>
+            <b>DEVELOP, EARN, COMMUNICATE, ENTERTAIN</b>
             &nbsp;and&nbsp;<b>LIVE</b> with <b>MAU</b>.
           </Text>
           <Flex justify="center">
