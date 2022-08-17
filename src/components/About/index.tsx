@@ -12,15 +12,28 @@ const About = (props: any) => {
       position="relative"
       {...props}
     >
-      <Image
+      {/* <Flex
         position="absolute"
-        width={["0%", "30%", "26%", "30%", "25%"]}
         display={["none", "none", "block", "block", "block"]}
         // left="auto"
         top="0px"
         right="0px"
-        src="/about/neon.png"
-      />
+        // src="/about/neon.png"
+      >
+        <Text
+          fontSize={["30px", "35px", "38px", "42px", "150px"]}
+          fontWeight="900"
+          fontFamily="'Clash Display', sans-serif"
+          color="rgb(255,255,235)"
+          textShadow="2px 2px 8px rgba(100, 210, 30, 0.8), -2px -2px 8px rgba(100, 210, 30, 0.8), 5px 5px 20px rgba(80, 200, 20, 0.8), -5px -5px 20px rgba(100, 200, 40, 0.8)"
+          textTransform="uppercase"
+          textAlign="center"
+          lineHeight="96%"
+          mb={6}
+        >
+          mau
+        </Text>
+      </Flex>
       <Image
         position="absolute"
         width={["0%", "30%", "26%", "30%", "200px"]}
@@ -29,7 +42,7 @@ const About = (props: any) => {
         top="30px"
         left="0px"
         src={Logo}
-      />
+      /> */}
       <Box
         maxWidth={["88vw", "86vw", "66vw", "66vw"]}
         textAlign="left"
@@ -48,7 +61,7 @@ const About = (props: any) => {
             META APES UNIVERSE
             <br />
           </span>
-          READY FOR NEW OPPERTUNITIES?
+          READY FOR NEW OPPORTUNITIES?
         </Text>
         <Text
           color="#fff"
