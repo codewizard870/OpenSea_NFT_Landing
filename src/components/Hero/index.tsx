@@ -17,7 +17,7 @@ const Hero = (props: any) => {
         <WelcomeImg />
         <Flex
           direction={{ base: "column", lg: "row" }}
-          width={{base: "100%", lg:"60%"}}
+          width={{ base: "100%", lg: "60%" }}
           align="center"
           columnGap="50px"
           h="100%"
@@ -28,12 +28,18 @@ const Hero = (props: any) => {
             lineHeight="160%"
             marginBottom="30px"
           >
-            META APES UNIVERSE CLUB - An Innovative crypto project built on ETH
-            blockchain. We are limited HIGH-TECH NFT collection of 10k unique
-            NFT MAU tokens. Our team want to provide people with new
-            opportunities that can improve their lives. MAU team developing
-            MAUVERSE - a new online world full of new opportunities for
-            everyone! DEVELOP, EARN, COMMUNICATE, ENTERTAIN and LIVE with MAU.
+            <b>META APES UNIVERSE CLUB</b> - An Innovative crypto project built
+            on ETH blockchain. <br />
+            <br />
+            We are limited <b>HIGH-TECH NFT</b> collection of 10k unique{" "}
+            <b>NFT MAU</b>
+            tokens. Our team want to provide people with new opportunities that
+            can improve their lives. <br />
+            <br />
+            MAU team developing <b>MAUVERSE</b> - a new online world full of new
+            opportunities for everyone!{" "}
+            <b>DEVELOP, EARN, COMMUNICATE, ENTERTAINM</b>
+            and <b>LIVE</b> with <b>MAU</b>.
           </Text>
           <Flex justify="center" w="100%">
             <ButtonPrimary
@@ -110,13 +116,13 @@ const HeroImg = (props: any) => {
   return (
     <Image
       src="/hero.png"
-      position={{base:"static", lg:"absolute"}}
+      position={{ base: "static", lg: "absolute" }}
       left="auto"
       top="auto"
       right="0%"
       bottom="0%"
       // maxWidth="479px"
-      w={{base: "100%", lg:"35vw"}}
+      w={{ base: "100%", lg: "35vw" }}
       display={["block", "block", "block", "block"]}
     />
   );
@@ -137,7 +143,7 @@ const HeroContainer = ({
       backgroundSize="cover"
       backgroundRepeat="no-repeat"
       pt="100px"
-      h={{base:"100%", lg: "100vh"}}
+      h={{ base: "100%", lg: "100vh" }}
       id="about"
       {...props}
     >
