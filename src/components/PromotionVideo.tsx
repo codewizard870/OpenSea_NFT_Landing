@@ -12,6 +12,7 @@ const PromotionVideo = (props:any) => {
                 loop= {true} 
                 // style={{backgroundImage: "url(&quot;https://global-uploads.webflow.com/61f25bf46b3218708480f622/61fbd0ae336940fbeebccfb0_akc_announcement_2___v5 (1080p)-poster-00001.jpg&quot;)"}} 
                 muted= {true}
+                preload={'auto'}
                 playsInline= {true} 
                 data-wf-ignore="true" 
                 data-object-fit="cover"

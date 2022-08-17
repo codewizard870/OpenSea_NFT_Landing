@@ -16,9 +16,10 @@ const Hero = (props: any) => {
       <WelcomeContainer>
         <WelcomeImg />
         <Flex
-          direction={{ base: "column", lg: "row" }}
+          direction={{ base: "column", lg: "column" }}
           width={{ base: "100%", lg: "60%" }}
           align="center"
+          justify="center"
           columnGap="50px"
           h="100%"
         >
@@ -27,21 +28,22 @@ const Hero = (props: any) => {
             fontSize={["16px", "16px", "18px", "18px"]}
             lineHeight="160%"
             marginBottom="30px"
+            textAlign="center"
           >
             <b>META APES UNIVERSE CLUB</b> - An Innovative crypto project built
             on ETH blockchain. <br />
             <br />
-            We are limited <b>HIGH-TECH NFT</b> collection of 10k unique{" "}
+            We are limited <b>HIGH-TECH NFT</b> collection of 10k unique&nbsp;
             <b>NFT MAU</b>
             tokens. Our team want to provide people with new opportunities that
             can improve their lives. <br />
             <br />
             MAU team developing <b>MAUVERSE</b> - a new online world full of new
-            opportunities for everyone!{" "}
+            opportunities for everyone!&nbsp;
             <b>DEVELOP, EARN, COMMUNICATE, ENTERTAINM</b>
-            and <b>LIVE</b> with <b>MAU</b>.
+            &nbsp;and&nbsp;<b>LIVE</b> with <b>MAU</b>.
           </Text>
-          <Flex justify="center" w="100%">
+          <Flex justify="center">
             <ButtonPrimary
               to="https://opensea.io/collection/alphakongsclub"
               name="Mint Soon"
