@@ -8,7 +8,7 @@ const MauEarning = (props: any) => {
       bg="#000"
       id="earning"
     >
-      <Image
+      {/* <Image
         position="absolute"
         width={["0%", "30%", "26%", "30%", "30%"]}
         display={["none", "none", "block", "block", "block"]}
@@ -25,24 +25,23 @@ const MauEarning = (props: any) => {
         bottom="0px"
         right="0px"
         src="/festival/2.png"
-      />
+      /> */}
       <Flex maxWidth="1200px" marginLeft="auto" marginRight="auto" {...props}>
         <Flex direction="column" align="center" zIndex="1">
           <Flex width="100%" justify="center">
             <Text
               fontFamily="'Clash Display', sans-serif"
               color="white"
-              fontSize={["30px", "35px", "40px", "50px", "60px"]}
+              fontSize={["30px", "35px", "40px", "50px", "50px"]}
               lineHeight="120%"
               fontWeight="900"
               letterSpacing="-3px"
               textAlign="center"
+              textShadow="2px 2px 8px rgba(100, 210, 30, 0.8), -2px -2px 8px rgba(100, 210, 30, 0.8), 5px 5px 20px rgba(80, 200, 20, 0.8), -5px -5px 20px rgba(100, 200, 40, 0.8)"
             >
-              <span style={{ color: "green" }}>
                 MAU
                 <br />
                 EARNINGS & DEVELOPMENTS
-              </span>
             </Text>
           </Flex>
           <Flex
@@ -51,6 +50,7 @@ const MauEarning = (props: any) => {
             textAlign="center"
             width={["90%", "86%", "60%", "50%", "60%"]}
             fontSize={["15px", "15px", "17px", "19px"]}
+            mt="50px"
           >
             <Text
               color="#fff"
@@ -60,7 +60,7 @@ const MauEarning = (props: any) => {
             >
               <b>TRADE AND FLIP MAU NFT’s</b>
               <br />
-              ( Trade and flip MAY NFT’S on OPENSEA)
+              ( Trade and flip MAU NFT’S on OPENSEA)
               <br />
               <br />
               <b>MAU MOVE TO EARN PROGRAM</b>
