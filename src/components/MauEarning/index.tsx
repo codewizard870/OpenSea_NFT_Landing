@@ -3,48 +3,31 @@ import ButtonPrimary from "../ButtonPrimary";
 const MauEarning = (props: any) => {
   return (
     <Flex
-      position="relative"
       paddingTop={["4em", "6em", "7em", "8em"]}
       bg="#000"
       id="earning"
+      w="100%"
     >
-      {/* <Image
-        position="absolute"
-        width={["0%", "30%", "26%", "30%", "30%"]}
-        display={["none", "none", "block", "block", "block"]}
-        left="0px"
-        bottom="0px"
-        right="auto"
-        src="/festival/1.png"
-      />
-      <Image
-        position="absolute"
-        width={["0%", "30%", "26%", "30%", "30%"]}
-        display={["none", "none", "block", "block", "block"]}
-        left="auto"
-        bottom="0px"
-        right="0px"
-        src="/festival/2.png"
-      /> */}
-      <Flex maxWidth="1200px" marginLeft="auto" marginRight="auto" {...props}>
-        <Flex direction="column" align="center" zIndex="1">
-          <Flex width="100%" justify="center">
-            <Text
-              fontFamily="'Clash Display', sans-serif"
-              color="white"
-              fontSize={["30px", "35px", "40px", "50px", "50px"]}
-              lineHeight="120%"
-              fontWeight="900"
-              letterSpacing="-3px"
-              textAlign="center"
-              textShadow="2px 2px 8px rgba(100, 210, 30, 0.8), -2px -2px 8px rgba(100, 210, 30, 0.8), 5px 5px 20px rgba(80, 200, 20, 0.8), -5px -5px 20px rgba(100, 200, 40, 0.8)"
-            >
-                MAU
-                <br />
-                EARNINGS & DEVELOPMENTS
-            </Text>
-          </Flex>
+      <Flex direction="column" align="center" zIndex="1" w="100%">
+        <Flex maxWidth="1200px" width="100%" justify="center">
+          <Text
+            fontFamily="'Clash Display', sans-serif"
+            color="white"
+            fontSize={["30px", "35px", "40px", "50px", "50px"]}
+            lineHeight="120%"
+            fontWeight="900"
+            letterSpacing="-3px"
+            textAlign="center"
+            textShadow="2px 2px 8px rgba(100, 210, 30, 0.8), -2px -2px 8px rgba(100, 210, 30, 0.8), 5px 5px 20px rgba(80, 200, 20, 0.8), -5px -5px 20px rgba(100, 200, 40, 0.8)"
+          >
+            MAU
+            <br />
+            EARNINGS & DEVELOPMENTS
+          </Text>
+        </Flex>
+        <Flex position="relative" width="100%" justify="center">
           <Flex
+            maxWidth="1200px"
             flexDirection="column"
             alignItems="center"
             textAlign="center"
@@ -92,6 +75,41 @@ const MauEarning = (props: any) => {
               <b>AND MUCH MORE IS COMING SOON.</b>
             </Text>
           </Flex>
+          <Flex
+            position="absolute"
+            justify="space-between"
+            h="100%"
+            direction="column"
+            top="auto"
+            left="0"
+            bottom="0"
+          >
+            <Image
+              width={["0%", "30%", "26%", "30%", "30%"]}
+              display={["none", "none", "block", "block", "block"]}
+              src="/festival/1.png"
+            />
+            <Image
+              width={["0%", "30%", "26%", "30%", "30%"]}
+              display={["none", "none", "block", "block", "block"]}
+              src="/festival/2.png"
+            />
+
+            <Image
+              width={["0%", "30%", "26%", "30%", "30%"]}
+              display={["none", "none", "block", "block", "block"]}
+              src="/festival/3.png"
+            />
+          </Flex>
+          <Image
+            position="absolute"
+            width={["0%", "30%", "26%", "30%", "30%"]}
+            display={["none", "none", "block", "block", "block"]}
+            left="auto"
+            top="0px"
+            right="0px"
+            src="/festival/4.png"
+          />
         </Flex>
       </Flex>
     </Flex>
