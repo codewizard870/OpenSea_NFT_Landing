@@ -10,10 +10,10 @@ const RoadMap = () => {
     const [cardIndex, setCardIndex] = useState(0)    
     const handleLeftClick=()=>{
         if (cardIndex>0) setCardIndex(cardIndex-1)
-        else setCardIndex(8)                  
+        else setCardIndex(6)                  
     }
     const handleRightClick=()=>{
-        if (cardIndex<8) setCardIndex(cardIndex+1)
+        if (cardIndex<6) setCardIndex(cardIndex+1)
         else setCardIndex(0)
     }
     useEffect(() => {
@@ -49,7 +49,7 @@ const RoadMap = () => {
                 transform={cardTranslate} right="0" whiteSpace="nowrap"
                 transition="transform 500ms ease 0s"
             >
-                {[0,1,2,3,4,5,6,7].map((item:number) => {
+                {[0,1,2,3,4,5].map((item:number) => {
                     return (<Card key={item} no={item} />)
                 })}
             </Box>
