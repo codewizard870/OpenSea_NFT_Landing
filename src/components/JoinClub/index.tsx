@@ -8,7 +8,7 @@ const JoinClub = (props: any) => {
       paddingBottom={["3em", "4em", "4em", "4em"]}
       bg="#000"
       id="club"
-      minH={{base: "auto", lg:"700px"}}
+      minH={{ base: "auto", lg: "700px" }}
     >
       <Image
         position="absolute"
@@ -20,8 +20,17 @@ const JoinClub = (props: any) => {
         src="/joinclub/hero.png"
         display={["none", "none", "block", "block"]}
       />
-      <Flex maxWidth="1200px" marginLeft="auto" marginRight="auto" {...props} width="100%">
-        <Flex justifyContent={["center", "center", "flex-end", "flex-end"]} width="100%">
+      <Flex
+        maxWidth="1200px"
+        marginLeft="auto"
+        marginRight="auto"
+        {...props}
+        width="100%"
+      >
+        <Flex
+          justifyContent={["center", "center", "flex-end", "flex-end"]}
+          width="100%"
+        >
           <Flex
             flexDirection="column"
             alignItems="flex-start"
@@ -44,7 +53,8 @@ const JoinClub = (props: any) => {
               marginBottom="10px"
               marginTop="20px"
             >
-              Join our communities to be at the center of all events, news, sweepstakes and prizes!
+              Join our communities to be at the center of all events, news,
+              sweepstakes and prizes!
               <br />
               <br />
               Follow the development and further plans of our team and our
@@ -61,7 +71,11 @@ const JoinClub = (props: any) => {
               <br />
               <br />
             </Text>
-            <ButtonPrimary to="#" name="Join Discord" width="270px" />
+            <Flex flexWrap="wrap" gap="10px">
+              <ButtonPrimary to="#" name="Join Discord" width="270px" />
+              <ButtonPrimary to="#" name="Join Twitter" width="270px" />
+              <ButtonPrimary to="#" name="Join Instagram" width="270px" />
+            </Flex>
           </Flex>
         </Flex>
       </Flex>

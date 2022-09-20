@@ -12,7 +12,9 @@ const MemberCard = ({name, description, img}:CardProps) => {
             textAlign="center"
             width={["auto", "100px", "130px", "160px", "220px"]}
         >
+            <Flex bg="black" borderRadius="50%">
             <Image src={img} alt={name} width={["50%", "100%", "100%", "100%"]} borderRadius="50%" />
+            </Flex>
             <Text fontFamily="'Clash Display', sans-serif"
                 color="black" fontSize={["20px","25px","30px","30px"]}
                 lineHeight="120%" fontWeight="900" marginTop="20px"             
