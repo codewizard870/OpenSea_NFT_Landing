@@ -25,12 +25,12 @@ export const ARTISTS_LIST = [
 export const MEMBERS_LIST1 = [
     {
         name: "ADAM",
-        description: "Found,Founder and Project manager  META APES UNIVERSE",
+        description: "FOUNDER OF THE MAU CLUB",
         img: "/team/1/1.png",        
     },
     {
         name: "JOSE",
-        description: "CEO, Head and Manager META APES UNIVERSE",
+        description: "CEO OF MAU CLUB",
         img: "/team/1/2.png",        
     },
     {
