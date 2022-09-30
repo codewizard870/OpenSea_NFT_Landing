@@ -85,26 +85,22 @@ const MauEarning = (props: any) => {
             bottom="0"
           >
             <Image
-              width={["0%", "30%", "26%", "30%", "30%"]}
-              display={["none", "none", "block", "block", "block"]}
+              width="30%"
               src="/festival/1.png"
             />
             <Image
-              width={["0%", "30%", "26%", "30%", "30%"]}
-              display={["none", "none", "block", "block", "block"]}
+              width="30%"
               src="/festival/2.png"
             />
 
             <Image
-              width={["0%", "30%", "26%", "30%", "30%"]}
-              display={["none", "none", "block", "block", "block"]}
+              width="30%"
               src="/festival/3.png"
             />
           </Flex>
           <Image
             position="absolute"
-            width={["0%", "30%", "26%", "30%", "30%"]}
-            display={["none", "none", "block", "block", "block"]}
+            width="30%"
             left="auto"
             top="0px"
             right="0px"

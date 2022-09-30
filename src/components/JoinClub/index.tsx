@@ -9,16 +9,16 @@ const JoinClub = (props: any) => {
       bg="#000"
       id="club"
       minH={{ base: "auto", lg: "700px" }}
+      direction={{ base: "column", md: "row" }}
     >
       <Image
-        position="absolute"
-        height="700px"
+        position={{ base: "relative", md: "absolute" }}
+        height={{ base: "auto", md: "700px" }}
         left="0px"
         bottom="0px"
         right="auto"
         top="auto"
         src="/joinclub/hero.png"
-        display={["none", "none", "block", "block"]}
       />
       <Flex
         maxWidth="1200px"
