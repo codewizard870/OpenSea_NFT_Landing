@@ -1,24 +1,24 @@
-import React, { } from "react";
+import React from "react";
 import { Link, Box, Flex, Text, Button, Stack } from "@chakra-ui/react";
-import { ReactComponent as InstagramIcon } from './../../assets/Instagram_Icon.svg'
-import { ReactComponent as TwitterIcon } from './../../assets/Twitter_Icon.svg'
-import { ReactComponent as DiscordIcon } from './../../assets/Discord_Icon.svg'
+import { ReactComponent as InstagramIcon } from "./../../assets/Instagram_Icon.svg";
+import { ReactComponent as TwitterIcon } from "./../../assets/Twitter_Icon.svg";
+import { ReactComponent as DiscordIcon } from "./../../assets/Discord_Icon.svg";
 import Logo from "./Logo";
 import ButtonPrimary from "../ButtonPrimary";
 
-const NavBar = (props:any) => {
+const NavBar = (props: any) => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <NavBarContainer {...props}>      
+    <NavBarContainer {...props}>
       <Logo
         w="100px"
         color={["white", "white", "primary.500", "primary.500"]}
       />
       <MenuToggle toggle={toggle} isOpen={isOpen} />
-      <SocialLinks isOpen={isOpen} />      
+      <SocialLinks isOpen={isOpen} />
       <MenuLinks isOpen={isOpen} />
     </NavBarContainer>
   );
@@ -46,7 +46,13 @@ const MenuIcon = () => (
   </svg>
 );
 
-const MenuToggle = ({ toggle, isOpen }:{toggle:()=>void, isOpen: boolean}) => {
+const MenuToggle = ({
+  toggle,
+  isOpen,
+}: {
+  toggle: () => void;
+  isOpen: boolean;
+}) => {
   return (
     <Box display={{ base: "block", md: "block", lg: "none" }} onClick={toggle}>
       {isOpen ? <CloseIcon /> : <MenuIcon />}
@@ -54,9 +60,20 @@ const MenuToggle = ({ toggle, isOpen }:{toggle:()=>void, isOpen: boolean}) => {
   );
 };
 
-const MenuItem = ({ children, to = "/", ...rest }:{children: React.ReactNode, to: string}) => {
+const MenuItem = ({
+  children,
+  to = "/",
+  ...rest
+}: {
+  children: React.ReactNode;
+  to: string;
+}) => {
   return (
-    <Link href={to} style={{textDecoration:"none"}} _hover={{color: "gray.400"}}>
+    <Link
+      href={to}
+      style={{ textDecoration: "none" }}
+      _hover={{ color: "gray.400" }}
+    >
       <Text display="block" {...rest}>
         {children}
       </Text>
@@ -64,41 +81,61 @@ const MenuItem = ({ children, to = "/", ...rest }:{children: React.ReactNode, to
   );
 };
 
-const SocialItem = ({ children, to = "/"}:{children: React.ReactNode, to: string}) => {
-    return (
-      <Link href={to} isExternal>
-        {children}
-      </Link>
-    );
+const SocialItem = ({
+  children,
+  to = "/",
+}: {
+  children: React.ReactNode;
+  to: string;
+}) => {
+  return (
+    <Link href={to} isExternal>
+      {children}
+    </Link>
+  );
 };
 
-const SocialLinks = ({ isOpen }:{isOpen: boolean}) => {
-    return (
-      <Box
-        display={{ base: isOpen ? "block" : "none", md: isOpen ? "block" : "none", lg: "block" }}
-        flexBasis={{ base: "100%", md: "100%", lg: "auto" }}
-      >
-        <Stack
-          spacing={8}
-          align="center"
-          justify={["center", "center", "center", "flex-end"]}
-        //   direction={["column", "row", "row", "row"]}
-          direction={["row", "row", "row", "row"]}
-          pt={[4, 4, 0, 0]}
-        >
-          <SocialItem to="http://instagram.com/alphakongsclub"><InstagramIcon width="25px" height="25px" /></SocialItem>
-          <SocialItem to="http://instagram.com/alphakongsclub"><TwitterIcon width="25px" height="25px" /></SocialItem>
-          <SocialItem to="http://instagram.com/alphakongsclub"><DiscordIcon width="25px" height="25px" /></SocialItem>
-        </Stack>
-      </Box>
-    );
-};
-
-const MenuLinks = ({ isOpen }:{isOpen: boolean}) => {
+const SocialLinks = ({ isOpen }: { isOpen: boolean }) => {
   return (
     <Box
-      display={{ base: isOpen ? "block" : "none", md: isOpen ? "block" : "none", lg: "block" }}
-      flexBasis={{ base: "100%", md: "100%", lg: "100%", xl: "auto" }}      
+      display={{
+        base: isOpen ? "block" : "none",
+        md: isOpen ? "block" : "none",
+        lg: "block",
+      }}
+      flexBasis={{ base: "100%", md: "100%", lg: "auto" }}
+    >
+      <Stack
+        spacing={8}
+        align="center"
+        justify={["center", "center", "center", "flex-end"]}
+        //   direction={["column", "row", "row", "row"]}
+        direction={["row", "row", "row", "row"]}
+        pt={[4, 4, 0, 0]}
+      >
+        <SocialItem to="https://instagram.com/meta_apes_universe_club?igshid=MDE2OWE1N2Q=">
+          <InstagramIcon width="25px" height="25px" />
+        </SocialItem>
+        <SocialItem to="https://twitter.com/universeapes?s=21&t=zpIpgo4sqPOAab6sz3-o7w">
+          <TwitterIcon width="25px" height="25px" />
+        </SocialItem>
+        <SocialItem to="https://discord.gg/5rSYcPXKtm">
+          <DiscordIcon width="25px" height="25px" />
+        </SocialItem>
+      </Stack>
+    </Box>
+  );
+};
+
+const MenuLinks = ({ isOpen }: { isOpen: boolean }) => {
+  return (
+    <Box
+      display={{
+        base: isOpen ? "block" : "none",
+        md: isOpen ? "block" : "none",
+        lg: "block",
+      }}
+      flexBasis={{ base: "100%", md: "100%", lg: "100%", xl: "auto" }}
     >
       <Stack
         spacing={8}
@@ -108,23 +145,38 @@ const MenuLinks = ({ isOpen }:{isOpen: boolean}) => {
         pt={[4, 4, 0, 0]}
       >
         <MenuItem to="/#about">About US</MenuItem>
-        <MenuItem to="/#team">Team </MenuItem>        
+        <MenuItem to="/#team">Team </MenuItem>
         <MenuItem to="#roadmap">Roadmap </MenuItem>
         {/* <MenuItem to="/pricing">Provenance </MenuItem>     */}
         <MenuItem to="/#club">MAU Club </MenuItem>
         <MenuItem to="/#earning">Mau earning </MenuItem>
-        <ButtonPrimary to="https://opensea.io/collection/alphakongsclub" name="Mint soon" width="260px" />        
+        <ButtonPrimary
+          to="https://opensea.io/collection/alphakongsclub"
+          name="Mint soon"
+          width="260px"
+        />
       </Stack>
     </Box>
   );
 };
 
-const NavBarContainer = ({ children, ...props }:{children:React.ReactNode}) => {
+const NavBarContainer = ({
+  children,
+  ...props
+}: {
+  children: React.ReactNode;
+}) => {
   return (
     <Flex
       as="nav"
       align="center"
-      justify={["space-between","space-between","space-between","flex-start","space-between"]}
+      justify={[
+        "space-between",
+        "space-between",
+        "space-between",
+        "flex-start",
+        "space-between",
+      ]}
       wrap="wrap"
       w="100%"
       mb={8}
@@ -135,7 +187,7 @@ const NavBarContainer = ({ children, ...props }:{children:React.ReactNode}) => {
       color={["white", "white", "white", "white"]}
       {...props}
     >
-      {children}      
+      {children}
     </Flex>
   );
 };

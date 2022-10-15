@@ -72,9 +72,21 @@ const JoinClub = (props: any) => {
               <br />
             </Text>
             <Flex flexWrap="wrap" gap="10px">
-              <ButtonPrimary to="#" name="Join Discord" width="270px" />
-              <ButtonPrimary to="#" name="Join Twitter" width="270px" />
-              <ButtonPrimary to="#" name="Join Instagram" width="270px" />
+              <ButtonPrimary
+                to="https://discord.gg/5rSYcPXKtm"
+                name="Join Discord"
+                width="270px"
+              />
+              <ButtonPrimary
+                to="https://twitter.com/universeapes?s=21&t=zpIpgo4sqPOAab6sz3-o7w"
+                name="Join Twitter"
+                width="270px"
+              />
+              <ButtonPrimary
+                to="https://instagram.com/meta_apes_universe_club?igshid=MDE2OWE1N2Q="
+                name="Join Instagram"
+                width="270px"
+              />
             </Flex>
           </Flex>
         </Flex>
